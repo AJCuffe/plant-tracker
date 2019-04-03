@@ -1,5 +1,5 @@
 import React from 'react'
-import Table from '../common/table/table'
+import Table from '../common/tables/table'
 
 const UsersTable = ({data: users, sortColumn, onSort}) => {
   const columns = [
