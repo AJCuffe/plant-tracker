@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
-import Plant from './plant'
+import PlantList from './pages/plantList'
+// import Users from './users'
 
 class App extends Component {
   render() {
-    return <Plant />
+    return <PlantList />
   }
 }
 

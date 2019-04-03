@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import {getPlant} from './services/fakePlantService'
-import PlantTable from './tables/plantTable'
+import {getPlant} from '../services/fakePlantService'
+import PlantTable from '../tables/plantTable'
 import _ from 'lodash'
 
 class Plant extends Component {
